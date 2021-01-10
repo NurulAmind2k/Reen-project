@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+font-size: 14px;
+line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	text-decoration: none;
+}
+
+/**top heaser code start**/
+
+.heade{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 5px 0px;
+	background: #f5f7fa;
+}
+.info-details{
+    width: 100%;
+}
+.info-details ul{
+     width: 100%;
+     display: block;
+     margin: 0px;
+     padding: 0px;
+}
+.info-details ul li{
+     list-style: none; 
+     display: inline-block;   
+}
+.info-details ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #506a85;
+    margin-right: 10px;
+
+}
+
+.info-details ul li a .fa{
+     margin-right:10px;
+}
+
+
+/**socail icons**/
+
+
+.social-icons{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	text-align: right;
+	
+
+	}
+
+.social-icons li{
+     list-style: none; 
+     display: inline-block;   
+}
+}
+.social-icons li a{
+   font-size: 14px;
+   font-weight: 700;
+   color: #506a85;
+   margin-left: 10px;
+   transition: 1s;
+}
+
+.social-icons li a:hover, .social-icons li a:focus{
+	color: #00bc9c;
+} 
+.main-meno{
+	width: 100%;
+}
+
+.main-meno .bg-light{
+	background-color: transparent !important;
+}
+.main-meno .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #00bc9c;
+}
+.main-meno .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 15px;
+}
+.main-meno .navbar-light .navbar-nav .nav-link:hover, .main-meno .navbar-light .navbar-nav .nav-link:focus{
+      color: #00bc9c;	
+}
+.main-meno.fa-search{
+      color:#506a85;
+      font-size: 14px;
+      font-weight: 600; 
+   }
+.slider{
+	width: 100%;
+}
+.slider .carousel-caption {
+    bottom: 40%;
+}
+
+ .slider .carousel-caption h2 {
+    position: absolute;
+    right: 0%;
+    bottom: 75%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: right;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: right;
+}
+.btn-info{
+	position: absolute;
+	right: 122px
+}
+.who-we{
+	width: 100%;
+}
+.who-we .titel h1{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 20px 0px;
+	text-align: center;
+}
+.who-we .titel p{
+	text-align: center;
+	margin-top: 29px;
+	margin-bottom: 43px;
+}
+.latest-work{
+	width: 100%;
+}
+.latest-work h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+.latest-work p{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	margin: 45px 0px;
+}
